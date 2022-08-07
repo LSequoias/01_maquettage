@@ -44,7 +44,7 @@ Globalement le Personna est un indice de se que l'ont attend d'un client, les us
 > geomap : feature  
 > site rapide : Demande d'autres sous-taches.    
 > peu de navigation, une sidebar pour les produits pour accélérée la recherche rapide.   
-> Un travail sur UI  
+> Un travail sur UI en ce basant sur la loi de Jakob par exemple.
 
 _____
 
@@ -65,7 +65,7 @@ Comme projet j'ai à réaliser un site web type vitrine, ce site à pour objecti
 Ce sont les Features essentiel qui compose le site web, impossible de passer **Kokomo** en production sans ça.
 
 ### Should have this if at all possible
-Ce sont les Features qui impacte énormément le site web mais ne sont pas essentiel à son fonctionnement fondamental ou son objectif central.
+Ce sont les Features qui impacte énormément le site web mais ne sont pas essentiel à son bon fonctionnement ou son objectif central.
 
 ### Could have this if it does not affect anything else
 Ce sont des petites Features pour mettre en valeurs le site, généralement en sont plus en question de confort que de fonctionnalitée. 
@@ -81,18 +81,30 @@ Ces features reste à cotée du projet et seront traitée plus tard.
 2. Les détails de chaque produit.
 3. le pieds de page contenant les CGU.
 4. La sideBar pour naviguée à travers tout les produits.
+5. La page de gestion des produits, un simple crud pour commençais.
 
 ### Should have this if at all possible
 1. l"application de géocalisation pour afficher l'emplacement de l'enseigne.
 2. Application d'Ajax sur la Sidebar afin d'éviter les rechargement de la page produit.
 3. Appliquée le site en responsive pour les formats mobiles.
+4. Ajout de la page accueil.
+5. Faire le référencement.
 
 ### Could have this if it does not affect anything else
 1. Afinnée les filtres de recherches.
 2. Ajout des prix des produits dans les détails.
 3. Une page de Contacte - SAV
+4. Mise en place d'un système SMTP.
+5. Application de WAI Aria.
 
 ### Won't have this time but would like in the future
 1. Une page destinée à visualisée l'équipe de l'enseigne
 2. Ajout d'animation et de Transition.
 3. Gérée les bug post-production. 
+4. Un suivit des clicks client, un CRM en gros.
+5. Téléchargement des statistiques générée par les clicks des clients.
+6. Refactorisation du code.
+7. CSR ou SSR voir un serveur hybride selon la tech.
+
+
+Voila les tâches définits par ordre de prioritée. Bien sûr ces tâches se veulent être exaussif et sans doute plus tard de nouvelle apparaitrons. Pour élaborée ces tâches en équipe des outils telle que Jira existe.
